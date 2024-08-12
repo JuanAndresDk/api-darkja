@@ -1,19 +1,22 @@
-const admin = require('firebase-admin');
+const jwt = require('jsonwebtoken');
 
-const authenticateFirebaseToken = async (req, res, next) => {
-    const authHeader = req.headers.authorization;
-    if (authHeader && authHeader.startsWith('Bearer ')) {
-      const idToken = authHeader.split(' ')[1];
-      try {
-        const decodedToken = await admin.auth().verifyIdToken(idToken);
-        req.user = decodedToken;
-        next();
-      } catch (error) {
-        return res.status(401).json({ error: 'Unauthorized', message: error.message });
+const authenticateJWT = (req, res, next) => {
+  const authHeader = req.headers.authorization;
+
+  if (authHeader && authHeader.startsWith('Bearer ')) {
+    const token = authHeader.split(' ')[1];
+
+    jwt.verify(token, 'your_jwt_secret', (err, user) => {
+      if (err) {
+        return res.status(403).json({ error: 'Token inválido' });
       }
-    } else {
-      return res.status(401).json({ error: 'No token provided' });
-    }
+
+      req.user = user;
+      next();
+    });
+  } else {
+    res.status(401).json({ error: 'No token provided' });
+  }
 };
 
-module.exports = authenticateFirebaseToken;
+module.exports = authenticateJWT;
