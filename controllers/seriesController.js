@@ -3,15 +3,15 @@ const { v4: uuidv4 } = require('uuid');
 
 // Agregar una nueva serie
 exports.agregarSerie = async (req, res) => {
-    const { nombre, descripcion, imagen } = req.body;
+    const { name, description, image } = req.body;
 
     try {
         const serieId = uuidv4(); // Generar un ID único para la serie
         const db = admin.database();
         await db.ref('series/' + serieId).set({
-            nombre,
-            descripcion,
-            imagen,
+            name,
+            description,
+            image,
         });
 
         res.status(201).json({ message: 'Serie agregada correctamente', id: serieId });
@@ -23,14 +23,14 @@ exports.agregarSerie = async (req, res) => {
 // Agregar una nueva temporada a una serie
 exports.agregarTemporada = async (req, res) => {
     const { serieId } = req.params;
-    const { nombre, imagen } = req.body;
+    const { name, image } = req.body;
 
     try {
         const temporadaId = uuidv4(); // Generar un ID único para la temporada
         const db = admin.database();
         await db.ref(`series/${serieId}/temporadas/${temporadaId}`).set({
-            nombre,
-            imagen,
+            name,
+            image,
         });
 
         res.status(201).json({ message: 'Temporada agregada correctamente', id: temporadaId });
@@ -42,13 +42,13 @@ exports.agregarTemporada = async (req, res) => {
 // Agregar un nuevo capítulo a una temporada
 exports.agregarCapitulo = async (req, res) => {
     const { serieId, temporadaId } = req.params;
-    const { nombre, numero, url } = req.body;
+    const { name, numero, url } = req.body;
 
     try {
         const capituloId = uuidv4(); // Generar un ID único para el capítulo
         const db = admin.database();
         await db.ref(`series/${serieId}/temporadas/${temporadaId}/capitulos/${capituloId}`).set({
-            nombre,
+            name,
             numero,
             url,
         });
@@ -66,11 +66,19 @@ exports.listarSeries = async (req, res) => {
         const snapshot = await db.ref('series').once('value');
         const series = snapshot.val();
 
-        res.status(200).json(series);
+        // Maneja el caso donde no hay series
+        if (!series) {
+            return res.status(200).json([]); // Retorna un array vacío si no hay series
+        }
+
+        const seriesArray = Object.keys(series).map(key => ({ id: key, ...series[key] }));
+
+        res.status(200).json(seriesArray);
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
 };
+
 
 // Listar todas las temporadas de una serie
 exports.listarTemporadas = async (req, res) => {
@@ -81,11 +89,20 @@ exports.listarTemporadas = async (req, res) => {
         const snapshot = await db.ref(`series/${serieId}/temporadas`).once('value');
         const temporadas = snapshot.val();
 
-        res.status(200).json(temporadas);
+        // Maneja el caso donde no hay temporadas
+        if (!temporadas) {
+            return res.status(200).json([]); // Retorna un array vacío si no hay temporadas
+        }
+
+        const temporadasArray = Object.keys(temporadas).map(key => ({ id: key, ...temporadas[key] }));
+
+        res.status(200).json(temporadasArray);
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
 };
+
+
 
 // Listar todos los capítulos de una temporada específica
 exports.listarCapitulos = async (req, res) => {
@@ -96,23 +113,32 @@ exports.listarCapitulos = async (req, res) => {
         const snapshot = await db.ref(`series/${serieId}/temporadas/${temporadaId}/capitulos`).once('value');
         const capitulos = snapshot.val();
 
-        res.status(200).json(capitulos);
+        // Maneja el caso donde no hay capítulos
+        if (!capitulos) {
+            return res.status(200).json([]); // Retorna un array vacío si no hay capítulos
+        }
+
+        const capitulosArray = Object.keys(capitulos).map(key => ({ id: key, ...capitulos[key] }));
+
+        res.status(200).json(capitulosArray);
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
 };
 
+
+
 // Modificar una serie existente
 exports.modificarSerie = async (req, res) => {
     const { serieId } = req.params;
-    const { nombre, descripcion, imagen } = req.body;
+    const { name, description, image } = req.body;
 
     try {
         const db = admin.database();
         await db.ref(`series/${serieId}`).update({
-            nombre,
-            descripcion,
-            imagen,
+            name,
+            description,
+            image,
         });
 
         res.status(200).json({ message: 'Serie modificada correctamente' });
@@ -124,13 +150,13 @@ exports.modificarSerie = async (req, res) => {
 // Modificar una temporada existente
 exports.modificarTemporada = async (req, res) => {
     const { serieId, temporadaId } = req.params;
-    const { nombre, imagen } = req.body;
+    const { name, image } = req.body;
 
     try {
         const db = admin.database();
         await db.ref(`series/${serieId}/temporadas/${temporadaId}`).update({
-            nombre,
-            imagen,
+            name,
+            image,
         });
 
         res.status(200).json({ message: 'Temporada modificada correctamente' });
@@ -142,12 +168,12 @@ exports.modificarTemporada = async (req, res) => {
 // Modificar un capítulo existente
 exports.modificarCapitulo = async (req, res) => {
     const { serieId, temporadaId, capituloId } = req.params;
-    const { nombre, numero, url } = req.body;
+    const { name, numero, url } = req.body;
 
     try {
         const db = admin.database();
         await db.ref(`series/${serieId}/temporadas/${temporadaId}/capitulos/${capituloId}`).update({
-            nombre,
+            name,
             numero,
             url,
         });

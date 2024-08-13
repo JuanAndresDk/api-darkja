@@ -119,6 +119,7 @@ exports.loginUsuario = async (req, res) => {
       process.env.JWT_SECRET, // Asegúrate de que JWT_SECRET esté configurado en las variables de entorno
       { expiresIn: '1h' }
     );
+    console.log('JWT_SECRET:', process.env.JWT_SECRET);
 
     res.status(200).json({ token });
   } catch (error) {

@@ -16,9 +16,9 @@ router.put('/:serieId/actualizar-temporadas/:temporadaId', authenticateJWT, seri
 router.delete('/:serieId/eliminar-temporadas/:temporadaId', authenticateJWT, seriesController.eliminarTemporada);
 
 // Rutas para manejar los capítulos dentro de una temporada
-router.post(':serieId/temporadas/:temporadaId/agregar-capitulos', authenticateJWT, seriesController.agregarCapitulo);
+router.post('/:serieId/temporadas/:temporadaId/agregar-capitulos', authenticateJWT, seriesController.agregarCapitulo);
 router.get('/:serieId/temporadas/:temporadaId/listar-capitulos', authenticateJWT, seriesController.listarCapitulos);
 router.put('/:serieId/temporadas/:temporadaId/actualizar-capitulos/:capituloId', authenticateJWT, seriesController.modificarCapitulo);
-router.delete(':serieId/temporadas/:temporadaId/eliminar-capitulos/:capituloId', authenticateJWT, seriesController.eliminarCapitulo);
+router.delete('/:serieId/temporadas/:temporadaId/eliminar-capitulos/:capituloId', authenticateJWT, seriesController.eliminarCapitulo);
 
 module.exports = router;
