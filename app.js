@@ -4,11 +4,11 @@ const admin = require('firebase-admin');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const serviceAccount = require('./darkja-p-firebase-adminsdk-h0ybv-f624eeca03.json');
+const serviceAccount = require('');
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://darkja-p-default-rtdb.firebaseio.com/"
+    databaseURL: ""
 });
 
 const app = express();
