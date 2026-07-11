@@ -1,0 +1,525 @@
+{
+  "exportType": "fusionWidgets",
+  "exportVersion": 1,
+  "widgets": [
+    {
+      "id": "collection.389abbbd-a28c-4e5a-a9b9-651eddba191e",
+      "title": "Decades",
+      "type": "collection.row",
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "id": "225e46b0-d546-4fe3-9cc6-a8646fa86312",
+              "title": "20s Movies",
+              "hideTitle": false,
+              "imageAspect": "wide",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158796",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/L5jnk6gT/20s.png"
+            },
+            {
+              "id": "8a93c407-c967-434a-889e-e6d1a804edc7",
+              "title": "10s Movies",
+              "hideTitle": false,
+              "imageAspect": "wide",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158791",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/br1s0NSR/10s.png"
+            },
+            {
+              "id": "5bd4e508-2bca-49f7-97e9-8bc8cc8e73f9",
+              "title": "00s Movies",
+              "hideTitle": false,
+              "imageAspect": "wide",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158792",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/RhwN1VJK/00s.png"
+            },
+            {
+              "id": "1a0f48ed-c8ae-4ed5-a439-29f7a961c12b",
+              "title": "90s Movies",
+              "hideTitle": false,
+              "imageAspect": "wide",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158793",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/J7XDCKYH/90s.png"
+            },
+            {
+              "id": "eced32a4-6f1a-47f7-a453-1d4098d0da32",
+              "title": "80s Movies",
+              "hideTitle": false,
+              "imageAspect": "wide",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158794",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/qBKhHQDz/80s.png"
+            },
+            {
+              "id": "2b42a835-16f5-4761-8612-38efbd1336b9",
+              "title": "70s Movies",
+              "hideTitle": false,
+              "imageAspect": "wide",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158795",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/VvXd9L0j/70s.png"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "collection.3e9c8c9c-4f97-4bd3-8cc5-8da4b113e0bb",
+      "title": "Genres",
+      "type": "collection.row",
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "id": "a5af5c09-8d2c-42e7-b775-09823d8410d0",
+              "title": "Action",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158800",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158825",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/X7gBJLM1/Action.png"
+            },
+            {
+              "id": "8d8fff07-a0bf-4843-bf18-9d218bbb21e3",
+              "title": "Comedy",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158801",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158826",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/3xJ4DGY5/Comedy.png"
+            },
+            {
+              "id": "e27d2648-31a2-46f0-bf5d-ad5cef1d800e",
+              "title": "Mystery",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158802",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158823",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/0yW6GNym/Mystery.png"
+            },
+            {
+              "id": "12a77ce5-093c-40ba-b4f4-a53f40470d3b",
+              "title": "Fantasy / Sci-Fi",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158803",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158827",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/598W8k2h/Fantasy-Sci-Fi.png"
+            },
+            {
+              "id": "e6811b94-baec-4f17-a5c7-6089ae647639",
+              "title": "Crime",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158804",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158828",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/FHsdJSNv/Crime.png"
+            },
+            {
+              "id": "554eb0e0-b94a-4190-b0d3-4ce7f9be559f",
+              "title": "Thriller",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158805",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158829",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/t4S1dg4K/Thriller.png"
+            },
+            {
+              "id": "3ac07949-86da-4ae4-bf40-6723c90a8e74",
+              "title": "Romance",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158806",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158824",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/Jz6y3hzv/Romance.png"
+            },
+            {
+              "id": "35eedb44-70ef-4dbf-aa75-2aed860a878e",
+              "title": "Drama",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158807",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158830",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/Gmh8sDd2/Drama.png"
+            },
+            {
+              "id": "c451c6ad-fdd4-4e9b-9e69-8656c80a68e7",
+              "title": "Family",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158809",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158831",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/zGXbRh8V/Family.png"
+            },
+            {
+              "id": "b322140a-d2be-42be-9f4b-bd541907343d",
+              "title": "Adventure",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158810",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158832",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/kXyR4srj/Adventure.png"
+            },
+            {
+              "id": "f67255cc-c344-417f-b77d-602a8e216114",
+              "title": "Animation",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158811",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158834",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/rF9Rmj6P/Animation.png"
+            },
+            {
+              "id": "33ad587d-67e1-486d-9001-e23972943c2d",
+              "title": "Reality TV",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.160049",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/fR237bRP/Reality-TV.png"
+            },
+            {
+              "id": "1646bf86-d4e9-4d63-9f0b-e461aa2e4610",
+              "title": "Horror",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158812",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158835",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/htyJ8Gtm/Horror.png"
+            },
+            {
+              "id": "ee081a6e-f82e-447d-9a52-fdbb90e12d3f",
+              "title": "Documentary",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158813",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158836",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/dVtkTCw0/Documentary.png"
+            },
+            {
+              "id": "75e40d16-b55c-4018-a481-8ea64da7b94c",
+              "title": "History",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158814",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "series::mdblist.158837",
+                    "type": "series"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/CxPZCKxR/History.png"
+            },
+            {
+              "id": "b49515c1-e9d6-4d4b-9bbc-b984a5fd5b8b",
+              "title": "War",
+              "hideTitle": false,
+              "imageAspect": "poster",
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.158815",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadata.viren070.me/stremio/f4051257-2509-4e17-b63a-b0738eb86885/manifest.json",
+                    "catalogId": "movie::mdblist.159694",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "imageURL": "https://i.postimg.cc/tR34qCP1/Bild.png"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+          
