@@ -1,0 +1,548 @@
+[
+  {
+    "id": "58397084-d251-4ee6-a5ef-02abd0908346",
+    "title": "Streaming",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_LAYOUT",
+    "showAllTab": true,
+    "backdropImageUrl": null,
+    "folders": [
+      {
+        "id": "9ff2cfb9-de4e-4df7-8bfa-32d1e8bf722c",
+        "title": "Netflix",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.netflix.webp",
+        "coverEmoji": null,
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.netflix.focus.gif?v=2",
+        "focusGifEnabled": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_netflix_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_netflix_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_netflix_top10_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_netflix_top10_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_netflix_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_netflix_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_netflix_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_netflix_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_netflix_top10_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_netflix_top10_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_netflix_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_netflix_series",
+            "genre": null
+          }
+        ],
+        "focusVideoUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.netflix.focus.mp4?v=2",
+        "focusVideoWebmUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.netflix.focus.webm?v=2"
+      },
+      {
+        "id": "a0dad610-c3c1-4d50-a1eb-d200d4006761",
+        "title": "Prime Video",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.prime_video.webp",
+        "coverEmoji": null,
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.prime_video.focus.gif?v=2",
+        "focusGifEnabled": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_prime_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_prime_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_prime_top10_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_prime_top10_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_prime_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_prime_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_prime_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_prime_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_prime_top10_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_prime_top10_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_prime_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_prime_series",
+            "genre": null
+          }
+        ],
+        "focusVideoUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.prime_video.focus.mp4?v=2",
+        "focusVideoWebmUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.prime_video.focus.webm?v=2"
+      },
+      {
+        "id": "20c4d72e-c8db-42e5-b1af-99624d56691d",
+        "title": "Disney+",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.disney_plus.webp",
+        "coverEmoji": null,
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.disney_plus.focus.gif?v=2",
+        "focusGifEnabled": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_disney_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_disney_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_disney_top10_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_disney_top10_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_disney_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_disney_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_disney_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_disney_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_disney_top10_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_disney_top10_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_disney_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_disney_series",
+            "genre": null
+          }
+        ],
+        "focusVideoUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.disney_plus.focus.mp4?v=2",
+        "focusVideoWebmUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.disney_plus.focus.webm?v=2"
+      },
+      {
+        "id": "9970e9cc-c6aa-4282-b683-68a71f693f58",
+        "title": "HBO Max",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.hbo_max.webp",
+        "coverEmoji": null,
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.hbo_max.focus.gif?v=2",
+        "focusGifEnabled": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_hbo_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_hbo_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_hbo_top10_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_hbo_top10_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_hbo_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_hbo_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_hbo_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_hbo_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_hbo_top10_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_hbo_top10_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_hbo_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_hbo_series",
+            "genre": null
+          }
+        ],
+        "focusVideoUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.hbo_max.focus.mp4?v=2",
+        "focusVideoWebmUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.hbo_max.focus.webm?v=2"
+      },
+      {
+        "id": "9c39a7bf-79a2-48f0-92f4-f0b4a8812689",
+        "title": "Apple TV+",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.apple_tv_plus.webp",
+        "coverEmoji": null,
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.apple_tv_plus.focus.gif?v=2",
+        "focusGifEnabled": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_apple_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_apple_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_apple_top10_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_apple_top10_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_apple_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_apple_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_apple_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_apple_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_apple_top10_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_apple_top10_series",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_apple_movies",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_apple_series",
+            "genre": null
+          }
+        ],
+        "focusVideoUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.apple_tv_plus.focus.mp4?v=2",
+        "focusVideoWebmUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.apple_tv_plus.focus.webm?v=2"
+      },
+      {
+        "id": "079a3c26-8667-4f20-a2aa-734accfd4dfe",
+        "title": "Paramount+",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.paramount_plus.webp",
+        "coverEmoji": null,
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.paramount_plus.focus.gif?v=2",
+        "focusGifEnabled": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "streaming_paramount_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "streaming_paramount_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_paramount_top10_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_paramount_top10_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "movie",
+            "catalogId": "snoak_latest_paramount_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.39d5406a-c970-492b-a695-4165a041c9d5",
+            "type": "series",
+            "catalogId": "snoak_latest_paramount_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
